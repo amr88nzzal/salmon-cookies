@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Style.css">
+    <title>PAT'S SALMON COOKIES</title>
+</head>
+<body background="">
+ <heder>
+   
+    <nav>
+        <img src="./img/16.png" alt="">
+    <ul>
+        <li><a href="" title="Products" id="li1">Products</a></li>
+        <li><a href="" title="Recipes"id="li2">Recipes</a></li>
+        <li><a href="" title="Contact Us" id="li3">Contact Us</a></li>
+        <li><a href="#salesReport" title="Sales Report" id="li4" class="li6">Sales Report</a>
+        </li>
+        <li><a href="#contactUs" title="Our Location"id="li5">Our Location</a></li>
+   
+</ul></nav>
+<h1>PAT'S   SALMON   COOKIES</h1>
+<br>
+<br>
+    
+ </heder>    
+ <main>
+  <section id ="ourProducts">
+    
+  </section>
+  <section id ="ourRecipe">
+      
+  </section>
+
+  <section id ="salesReport" class ="salesReport">
+    <section id="salesTbl">
+     <table id="allLocations">
+     </table>
+    </section>
+    <br>
+    <section id="add">
+       <form id ="addLocation">
+        <fieldset>
+         <legend>Add New Location</legend>
+       <div class="question"><label for="locationName">Location Name:</label>
+         <input type="text" name="locationName" id="locationName" required="Can't be empty" class="field" ><br>
+       </div>
+    
+       <div class="question"><label for="maxPeoplePerHour">Max people per hour:</label>
+         <input type="number" name="maxPeoplePerHour" id="maxPeoplePerHour" required="Can't be empty" min="1" class="field"><br>
+       </div>
+       <div class="question"><label for="miniPeoplePerHour">Mini people per hour:</label>
+         <input type="number" name="miniPeoplePerHour" id="miniPeoplePerHour" required="Can't be empty" min="1" class="field" ><br>
+       </div>
+    
+       <div class="question"><label for="avgCookiesPerPAX">Average Cookies Per Person:</label>
+         <input type="number" name="avgCookiesPerPAX" id="avgCookiesPerPAX" required="Can't be empty" min="0" step=".01" class="field">  <br>
+       </div>
+         <input class="" type="submit" value="Add Location">
+
+       </form>
+
+   </section>
+</section> 
+<section id ="ourLocations">
+    
+    <br><br><br><br><br>
+    <div id="contactUs">
+        <div id="imgs">
+         <p class="lblx">Our Branches</p>
+         <img src="./img/02.png" alt="Seattle">
+         <img src="./img/04.jpg" alt="Tokyo">
+         <img src="./img/05.jpg" alt="Dubai">
+         <img src="./img/06.jpg" alt="Paris">
+         <img src="./img/07.jpg" alt="Lima">
+  
+        </div>
+       <div>
+    <div><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=seattle&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        <p>Seattle</p>
+ </div> 
+ 
+ <div><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=TOKYO&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    <p>Tokyo</p>
+ </div> 
+ <div><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=dubai&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    <p>Dubai</p>
+ </div> 
+ <div><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Paris&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    <p>Paris</p>
+ </div> 
+ <div><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Lime&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    <p>Lime</p>
+    
+ </div> 
+   </section> 
+</main>
+ <footer>
+     <hr class="hrImg">
+    <section id="rightSec">
+             
+        <ul>
+            <li><img src="./img/fb-icon.png" alt="FB"></li>
+            <li><img src="img/twit-icon.png" alt="TWIT"></li>
+            <li><img src="img/gp-icon.png" alt="GP"></li>
+            <li><img src="img/insta-icon.png" alt="INSTA"></li>
+            <li><img src="img/flic-icon.png" alt="FLIC"></li>
+            <li><img src="img/pint-icon.png" alt="PINT"></li>
+            <li><img src="img/rss-icon.png" alt="RSS"></li>
+            <li><img src="img/mail-icon.png" alt="MAIL"></li>
+          </ul>
+    
+    </section>
+        <section id="leftSec">
+     &copy;Powered By Amr Nzzal</section>
+ </footer>
+</body>
+<script src="./js/app.js"></script>
+</html>

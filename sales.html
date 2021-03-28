@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/salesStyle.css">
+    <title>Sales Report</title>
+    <button onclick="window.location.href='./index.html'">Main Page</button>
+</head>
+<body>
+    <heder>
+        <h1>PAT'S  SALMON  COOKIES</h1>
+        <h2>Sales Report</h2>
+       <a href="index.html"></a>
+    </heder>    
+    <main>
+   
+     <section >
+         <div></div>
+      <table id="allLocations">
+      </table>
+      <div></div>
+     </section>
+     <br>
+     <section id="add">
+        <form id ="addLocation">
+         <fieldset>
+          <legend>Add New Location</legend>
+        <div><label for="locationName">Location Name:</label>
+          <input type="text" name="locationName" id="locationName" required="Can't be empty" ><br>
+        </div>
+        <div><label for="maxPeoplePerHour">Max people per hour:</label>
+          <input type="number" name="maxPeoplePerHour" id="maxPeoplePerHour" required="Can't be empty" min="1"><br>
+        </div>
+        <div><label for="miniPeoplePerHour">Mini people per hour:</label>
+          <input type="number" name="miniPeoplePerHour" id="miniPeoplePerHour" required="Can't be empty" min="1" ><br>
+        </div>
+        <div><label for="avgCookiesPerPAX">Average Cookies Per Person:</label>
+          <input type="number" name="avgCookiesPerPAX" id="avgCookiesPerPAX" required="Can't be empty" min="0" step=".01">  <br>
+        </div>
+          <input type="submit" value="Add Location">
+
+        </form>
+
+    </section>
+
+    </main>
+    <footer>
+        
+    </footer>    
+</body>
+<script src="./js/app.js"></script>
+</html>
